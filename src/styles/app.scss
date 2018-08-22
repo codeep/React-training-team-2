@@ -1,2 +1,74 @@
-@import '_settings.scss';
-@import '_base.scss';
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+
+body{
+    background-image: url('pizza.jpg');
+    background-size: 100%;
+}
+.logo{
+    height: 50px;
+    background-color: #991C1C;
+    text-align: center;
+}
+.logo span{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai', cursive;
+    color: #FFB200;
+}
+form{
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 10%;
+    background: rgba(112, 112, 112, 0.5);
+    display: inline-block;
+}
+form h2{
+    font-size: 55px;
+    text-transform: capitalize;
+    text-shadow: 0 0 20px black;
+    font-family: 'Baloo Bhai', cursive;
+    color: #991C1C;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(153, 28, 28, 0);
+    border: none;
+    border-bottom: 3px solid #991C1C;
+    outline: none;
+}
+form input::-webkit-input-placeholder{
+    color: #991C1C;
+}
+.address{
+    width: 286px;
+}
+.btn{
+    color: #FFB200;
+    background-color: #991C1C;
+    font-weight: bold;
+    text-align: center;
+}
+.btn:hover{
+    background-color: #AB1D1D;
+}
+.btn2{
+    margin-top: 30px;
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Baloo Bhai', cursive;
+    background-color: #FFB200;
+    color: #991C1C;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+}
+.btn2:hover{
+    cursor: pointer;
+    background-color: #991C1C ;
+    color: #FFB200 ;
+}
