@@ -7,12 +7,12 @@ export default class Btn extends Component {
     }
 
     sub() {
-        document.getElementById("myForm").submit();
+        document.getElementById('myForm').submit();
     }
 
     render() {
         return (
-            <button type="button" onClick={sub} className="btn2">{this.props.btnTxt}</button>
+            <button type='button' onClick={sub} className='btn2'>{this.props.btnTxt}</button>
         );
     }
 }
