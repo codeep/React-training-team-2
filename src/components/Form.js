@@ -12,9 +12,9 @@ export default class Form extends Component {
                 <form>
                     <h2>delivery address</h2>
 
-                    <input type="text" placeholder="name" /><br /><br />
-                    <input type="text" placeholder="phone" /><br /><br />
-                    <input className="address" type="text" placeholder="address" />
+                    <input pattern="[A-Za-z]" required type="text" placeholder="name" /><br /><br />
+                    <input pattern="[0-9]" required type="text" placeholder="phone" /><br /><br />
+                    <input required className="address" type="text" placeholder="address" />
                     <button type="button" className="btn">Open Map</button>
                 </form>
             </span>
