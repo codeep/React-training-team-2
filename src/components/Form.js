@@ -9,7 +9,7 @@ export default class Form extends Component {
     render() {
         return (
             <span>
-                <form>
+                <form id='myForm'>
                     <h2>delivery address</h2>
 
                     <input pattern="[A-Za-z]" required type="text" placeholder="name" /><br /><br />

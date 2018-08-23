@@ -22,7 +22,7 @@ export default class App extends Component {
                     <Form />
                 </div>
                 <div className='text-center'>
-                    <Btn txt='Make pizza' />
+                    <Btn btnTxt='Make pizza' />
                 </div>
             </div>
         );

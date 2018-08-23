@@ -6,9 +6,13 @@ export default class Btn extends Component {
         super();
     }
 
+    sub() {
+        document.getElementById("myForm").submit();
+    }
+
     render() {
         return (
-            <button type="submit" className="btn2">{this.props.txt}</button>
+            <button type="button" onClick={sub} className="btn2">{this.props.btnTxt}</button>
         );
     }
 }
