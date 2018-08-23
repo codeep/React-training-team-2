@@ -16,21 +16,21 @@ body{
     font-family: 'Baloo Bhai', cursive;
     color: #FFB200;
 }
-form{
+.form{
     border-radius: 30px;
     padding: 20px;
     margin-top: 10%;
     background: rgba(112, 112, 112, 0.5);
     display: inline-block;
 }
-form h2{
+.form h2{
     font-size: 55px;
     text-transform: capitalize;
     text-shadow: 0 0 20px black;
     font-family: 'Baloo Bhai', cursive;
     color: #991C1C;
 }
-form input{
+.form input{
     width: 400px;
     height: 40px;
     font-size: 30px;
@@ -40,11 +40,11 @@ form input{
     border-bottom: 3px solid #991C1C;
     outline: none;
 }
-form input::-webkit-input-placeholder{
+.form input::-webkit-input-placeholder{
     color: #991C1C;
 }
 .address{
-    width: 286px;
+    width: 286px!important;
 }
 .btn{
     color: #FFB200;

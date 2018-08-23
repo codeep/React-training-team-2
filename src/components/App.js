@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 
 import Logo from './Logo';
 import Form from './Form';
-import Btn from './Btn';
 
 export default class App extends Component {
 
@@ -20,9 +19,6 @@ export default class App extends Component {
                 </div>
                 <div className='text-center'>
                     <Form />
-                </div>
-                <div className='text-center'>
-                    <Btn btnTxt='Make pizza' />
                 </div>
             </div>
         );
