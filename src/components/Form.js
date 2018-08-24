@@ -10,7 +10,6 @@ export default class Form extends Component {
 
     render() {
         return (
-            <span>
                 <form id='myForm'>
                     <span className='form'>
                         <h2>delivery address</h2>
@@ -24,7 +23,6 @@ export default class Form extends Component {
                         <Btn btnTxt='Make pizza' />
                     </div>
                 </form>
-            </span>
         );
     }
 }
