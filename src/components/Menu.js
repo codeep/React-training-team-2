@@ -40,7 +40,7 @@ export default class Menu extends Component {
             <div className='container Menu'>
                 <div className='row'>
                     {Items.map((value) =>{
-                        return <MenuItem img={value.img} title={value.title} comment={value.comment} price={value.price} />
+                        return <MenuItem img={value.img} title={value.title} comment={value.comment} price={value.price} />;
                     })}
                 </div>
             </div>
