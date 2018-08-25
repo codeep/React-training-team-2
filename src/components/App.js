@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 
 import Logo from './Logo';
 import Form from './Form';
+import Menu from './Menu';
 
 export default class App extends Component {
 
@@ -20,6 +21,10 @@ export default class App extends Component {
                 <div className='text-center'>
                     <Form />
                 </div>
+                <div className='text-center'>
+                    <Menu />
+                </div>
+
             </div>
         );
     }

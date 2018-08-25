@@ -3,6 +3,7 @@
 body{
     background-image: url('pizza.jpg');
     background-size: 100%;
+    background-attachment: fixed;
 }
 .logo{
     height: 50px;
@@ -16,7 +17,7 @@ body{
     font-family: 'Baloo Bhai', cursive;
     color: #FFB200;
 }
-.form{
+.form, .Menu{
     border-radius: 30px;
     padding: 20px;
     margin-top: 10%;
@@ -71,4 +72,25 @@ body{
     cursor: pointer;
     background-color: #991C1C ;
     color: #FFB200 ;
+}
+.MenuItem{
+    width: 318px;
+    background-color: white;
+    margin: 5px auto;
+}
+.MenuItem p{
+    text-align: left;
+    padding: 10px 10px 0 10px;
+}
+.MenuItem button{
+    margin-bottom: 10px;
+}
+.ItemTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ItemPrice{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
 }
