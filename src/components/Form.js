@@ -11,14 +11,14 @@ export default class Form extends Component {
     render() {
         return (
                 <form id='myForm'>
-                    <span className='form'>
+                    <div className='form'>
                         <h2>delivery address</h2>
 
                         <input pattern="[A-Za-z]" required type="text" placeholder="name" /><br /><br />
                         <input pattern="[0-9]" required type="text" placeholder="phone" /><br /><br />
                         <input required className="address" type="text" placeholder="address" />
                         <button type="button" className="btn">Open Map</button>
-                    </span>
+                    </div>
                     <div className='text-center'>
                         <Btn btnTxt='Make pizza' />
                     </div>
