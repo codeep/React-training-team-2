@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'reactstrap';
 
 export default class Btn extends Component {
 
@@ -6,10 +7,8 @@ export default class Btn extends Component {
         super();
     }
 
-
     render() {
         return (
-            <button type='submit' className='btn2'>{this.props.btnTxt}</button>
-        );
+            <Button type='submit' className='btn2'>{this.props.btnTxt}</Button>);
     }
 }

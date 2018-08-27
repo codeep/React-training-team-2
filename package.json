@@ -30,6 +30,7 @@
     ]
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
@@ -59,7 +60,9 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.0",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-icons": "^3.0.5",
+    "reactstrap": "^6.4.0"
   }
 }

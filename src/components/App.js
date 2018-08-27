@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 
 // COMPONENTS
 
-import Logo from './Logo';
-import Form from './Form';
+
 import Menu from './Menu';
+
+import MyForm from './Form';
+import MyNavbar from './Navbar';
+
 
 export default class App extends Component {
 
@@ -16,10 +19,10 @@ export default class App extends Component {
         return (
             <div>
                 <div className='logo'>
-                    <Logo txt='Pizza Store' />
+                    <MyNavbar/>
                 </div>
                 <div className='text-center'>
-                    <Form />
+                    <MyForm />
                 </div>
                 <div className='text-center'>
                     <Menu />
