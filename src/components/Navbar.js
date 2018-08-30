@@ -50,7 +50,7 @@ export default class MyNavbar extends Component {
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret >
-<FaInfo color='orange'/>
+                                    <FaInfo color='orange'/>
                                 </DropdownToggle>
                                 <DropdownMenu right>
                                     <DropdownItem>

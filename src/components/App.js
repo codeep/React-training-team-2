@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 // COMPONENTS
 
 
-import Menu from './Menu';
 
-import MyForm from './Form';
-import MyNavbar from './Navbar';
+import Header from './Header';
+import Main from './Main';
+
 
 
 export default class App extends Component {
@@ -18,16 +18,8 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <div className='logo'>
-                    <MyNavbar/>
-                </div>
-                <div className='text-center'>
-                    <MyForm />
-                </div>
-                <div className='text-center'>
-                    <Menu />
-                </div>
-
+                <Header />
+                <Main />   
             </div>
         );
     }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import MenuItem from './MenuItem';
 
@@ -37,12 +38,17 @@ export default class Menu extends Component {
 
 
         return (
-            <div className='container Menu'>
-                <div className='row'>
-                    {Items.map((value) =>{
-                        return <MenuItem img={value.img} title={value.title} comment={value.comment} price={value.price} />
-                    })}
+            <div className='text-center'>
+                <div className='container Menu'>
+                    <div className='row'>
+                        {Items.map((value) =>{
+                            return <MenuItem img={value.img} title={value.title} comment={value.comment} price={value.price} />
+                        })}
+                    </div>
                 </div>
+                <div className='text-center'>
+					<Link to='/menu'><Btn btnTxt='Next' /></Link>
+                 </div>
             </div>
         );
 

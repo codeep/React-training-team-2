@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 
 import Btn from './Btn';
-import {Form, Input, Button } from 'reactstrap';
 
-export default class MyForm extends Component {
+export default class Form extends Component {
     constructor() {
         super();
     }
 
     render() {
         return (
+            <div className='text-center'>
                 <Form id='myForm'>
                     <div className='form'>
                         <h2>delivery address</h2>
@@ -20,9 +21,10 @@ export default class MyForm extends Component {
                         <button type="button" className="btn">Open Map</button>
                     </div>
                     <div className='text-center'>
-                        <Btn btnTxt='Make pizza' />
+						<Link to='/'><Btn btnTxt='Make pizza' /></Link>
                     </div>
                 </Form>
+            </div>
 
         );
     }

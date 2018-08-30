@@ -17,6 +17,6 @@ export default class MenuItem extends Component {
                     <button className='btn' type='button'>Add</button>
                 </div>
             </div>
-            );
+        );
     }
 }
