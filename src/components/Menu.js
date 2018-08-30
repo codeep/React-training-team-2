@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import MenuItem from './MenuItem';
+import Btn from './Btn';
 
 // images
 
@@ -47,9 +48,16 @@ export default class Menu extends Component {
                     </div>
                 </div>
                 <div className='text-center'>
-					<Link to='/menu'><Btn btnTxt='Next' /></Link>
-                 </div>
+                    <Link to='/menu'><Btn btnTxt='Next' /></Link>
+                </div>
             </div>
+		    <div class="history">
+				<span class="span">1</span>
+				<span class="line"></span>
+				<span class="span">2</span>
+				<span class="line"></span>
+				<span class="span">3</span>
+			</div>
         );
 
     }

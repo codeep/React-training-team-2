@@ -94,3 +94,35 @@ body{
     font-weight: bold;
     color: red;
 }
+
+
+.history{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+}
+.spanActiv{
+	background-color: #991C1C;
+	font-size: 15px;
+}
+.span{
+	font-size: 25px;
+	border: 3px solid #991C1C; 
+	color: white;
+	border-radius: 50%;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	line-height: 25px;
+	text-align:center;
+}
+.line{
+	border-radius: 0px;
+	width: 40px;
+	height: 3px;
+	margin-bottom: 7px;
+	margin-left: -5px;
+	margin-right: -5px;
+	display: inline-block;
+    background-color: #991C1C ;
+}

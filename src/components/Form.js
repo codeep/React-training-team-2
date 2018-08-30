@@ -25,7 +25,13 @@ export default class Form extends Component {
                     </div>
                 </Form>
             </div>
-
+			<div className='history'>
+				<span className='span spanActiv'><i className='fas fa-check'></i></span>
+				<span className='line'></span>
+				<span className='span'>2</span>
+				<span className='line'></span>
+				<span className='span'>3</span>
+			</div>
         );
     }
 }
