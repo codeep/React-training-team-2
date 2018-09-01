@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Button } from 'reactstrap';
 
-export default class Btn extends Component {
+class Btn extends Component {
 
     constructor(props) {
         super(props);
@@ -12,3 +13,8 @@ export default class Btn extends Component {
             <Button type='submit' className='btn2'>{this.props.btnTxt}</Button>);
     }
 }
+Btn.propTypes = {
+ btnTxt: PropTypes.string
+};
+
+export default Btn;

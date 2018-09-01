@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-	
+import PropTypes from 'prop-types';
+
+
 class MenuItem extends Component {
 
     constructor(props) {
@@ -7,10 +9,10 @@ class MenuItem extends Component {
     }
 
 
-	
+
     render() {
         return (
-            <div className='col-lg-4'>
+            <div className='col-lg-4' id={this.props.key}>
                 <div className='MenuItem'>
                     <img src={this.props.img} />
                     <p className='ItemTitle'>{this.props.title}</p>
@@ -27,6 +29,7 @@ MenuItem.propTypes = {
  img: PropTypes.string,
  title: PropTypes.string,
  comment: PropTypes.string,
- price: PropTypes.string
+ price: PropTypes.string,
+ key: PropTypes.string
 };
 export default MenuItem;

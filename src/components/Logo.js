@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-export default class Logo extends Component {
+class Logo extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
 
     render() {
@@ -12,3 +13,9 @@ export default class Logo extends Component {
         );
     }
 }
+
+Logo.propTypes = {
+ txt: PropTypes.string
+};
+
+export default Logo;
