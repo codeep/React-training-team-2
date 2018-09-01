@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+	
+class MenuItem extends Component {
 
-export default class MenuItem extends Component {
-
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
 
+
+	
     render() {
         return (
             <div className='col-lg-4'>
@@ -20,3 +22,11 @@ export default class MenuItem extends Component {
         );
     }
 }
+
+MenuItem.propTypes = {
+ img: PropTypes.string,
+ title: PropTypes.string,
+ comment: PropTypes.string,
+ price: PropTypes.string
+};
+export default MenuItem;

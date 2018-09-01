@@ -3,8 +3,8 @@ import { Button } from 'reactstrap';
 
 export default class Btn extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
 
     render() {

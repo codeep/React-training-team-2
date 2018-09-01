@@ -8,8 +8,8 @@ import Menu from './Menu';
 const Main = () => (
     <main>
         <Switch>
-            <Route exact path="/" component={Form} />
-            <Route path="/menu" component={Menu} />
+            <Route exact path="/" component={Menu} />
+            <Route path="/form" component={Form} />
         </Switch>
     </main>
 );

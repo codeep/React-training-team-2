@@ -11,6 +11,7 @@ export default class Form extends Component {
 
     render() {
         return (
+			<div>
             <div className='text-center'>
                 <Form id='myForm'>
                     <div className='form'>
@@ -31,6 +32,7 @@ export default class Form extends Component {
 				<span className='span'>2</span>
 				<span className='line'></span>
 				<span className='span'>3</span>
+			</div>
 			</div>
         );
     }

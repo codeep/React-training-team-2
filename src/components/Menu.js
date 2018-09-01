@@ -39,6 +39,7 @@ export default class Menu extends Component {
 
 
         return (
+			<div>
             <div className='text-center'>
                 <div className='container Menu'>
                     <div className='row'>
@@ -48,15 +49,16 @@ export default class Menu extends Component {
                     </div>
                 </div>
                 <div className='text-center'>
-                    <Link to='/menu'><Btn btnTxt='Next' /></Link>
+                    <Link to='/form'><Btn btnTxt='Next' /></Link>
                 </div>
             </div>
-		    <div class="history">
-				<span class="span">1</span>
-				<span class="line"></span>
-				<span class="span">2</span>
-				<span class="line"></span>
-				<span class="span">3</span>
+            <div className="history">
+				<span className="span">1</span>
+				<span className="line"></span>
+				<span className="span">2</span>
+				<span className="line"></span>
+				<span className="span">3</span>
+			</div>
 			</div>
         );
 
