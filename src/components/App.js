@@ -9,7 +9,7 @@ import Menu from './Menu';
 export default class App extends Component {
     constructor() {
         super();
-           }
+              }
 
     render() {
         return (
@@ -24,6 +24,7 @@ export default class App extends Component {
                 <div className='text-center'>
                     <Menu />
                 </div>
+
             </div>
         );
     }

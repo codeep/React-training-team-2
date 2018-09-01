@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import MenuItem from './MenuItem';
-
+import Ingredients from './Ingredients';
 // images
 
 import img1 from '../img/img1.jpg';
@@ -14,10 +14,11 @@ import img7 from '../img/img7.jpg';
 import img8 from '../img/img8.jpg';
 import img9 from '../img/img9.jpg';
 
+
 export default class Menu extends Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
     }
 
 
@@ -43,6 +44,28 @@ export default class Menu extends Component {
                         return <MenuItem img={value.img} title={value.title} comment={value.comment} price={value.price} />;
                     })}
                 </div>
+                <div className="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog" role="document">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h5 className="modal-title" id="exampleModalLabel"><p className='ItemTitle'>
+                                   gjgjhg
+                                </p></h5>
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div className="modal-body">
+                              <Ingredients/>
+                            </div>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" className="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         );
 
