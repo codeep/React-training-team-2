@@ -50,12 +50,12 @@ export default class Menu extends Component {
                         })}
                     </div>
                 </div>
-                <div className='text-center'>
+                <div className='text-center mb-3'>
                     <Link to='/form'><Btn btnTxt='Next' /></Link>
                 </div>
             </div>
             <div className="history">
-				<span className="span">1</span>
+				<span className="span spanActiv">1</span>
 				<span className="line"></span>
 				<span className="span">2</span>
 				<span className="line"></span>

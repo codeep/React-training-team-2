@@ -21,7 +21,7 @@ export default class Form extends Component {
                         <input required className="address" type="text" placeholder="address" />
                         <button type="button" className="btn">Open Map</button>
                     </div>
-                    <div className='text-center'>
+                    <div className='text-center mb-3'>
 						<Link to='/'><Btn btnTxt='Make pizza' /></Link>
                     </div>
                 </Form>
@@ -29,7 +29,7 @@ export default class Form extends Component {
 			<div className='history'>
 				<span className='span spanActiv'><i className='fas fa-check'></i></span>
 				<span className='line'></span>
-				<span className='span'>2</span>
+				<span className='span spanActiv'>2</span>
 				<span className='line'></span>
 				<span className='span'>3</span>
 			</div>
