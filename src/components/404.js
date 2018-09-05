@@ -5,7 +5,7 @@ const ErrorPage = () => (
 		<div>
 			close !
 		</div>
-		<p><span>error 404 !</span> sorry page isn't found for one of the reformes </p>
+		<p><span>error 404 !</span> sorry page is not found for one of the reformes </p>
     </div>
 );
 

@@ -13,18 +13,17 @@ export default class Form extends Component {
         return (
 			<div>
             <div className='text-center'>
-                <Form id='myForm'>
+                <form id='myForm'>
                     <div className='form'>
                         <h2>delivery address</h2>
                         <input pattern="[A-Za-z]" required type="text" placeholder="name" /><br /><br />
                         <input pattern="[0-9]" required type="text" placeholder="phone" /><br /><br />
-                        <input required className="address" type="text" placeholder="address" />
-                        <button type="button" className="btn">Open Map</button>
+                        <input required  type="text" placeholder="address" />
                     </div>
                     <div className='text-center mb-3'>
-						<Link to='/'><Btn btnTxt='Make pizza' /></Link>
+						<Link to='/'><Btn btnTxt='Next' /></Link>
                     </div>
-                </Form>
+                </form>
             </div>
 			<div className='history'>
 				<span className='span spanActiv'><i className='fas fa-check'></i></span>

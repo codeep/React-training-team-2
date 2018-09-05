@@ -9,9 +9,9 @@ import ErrorPage from './404';
 const Main = () => (
     <main>
         <Switch>
-            <Route exact path="/" component={ErrorPage} />
+            <Route exact path="/" component={Menu} />
             <Route path="/form" component={Form} />
-            <Route path="*" exact={true} component={Menu} />
+            <Route path="*" component={ErrorPage} />
         </Switch>
     </main>
 );
